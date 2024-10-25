@@ -1,0 +1,6 @@
+@Sample.Dynatrace.API_HostAddress = http://localhost:5234
+
+GET {{Sample.Dynatrace.API_HostAddress}}/api/v1/logs
+Accept: application/json
+
+###
