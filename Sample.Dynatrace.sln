@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{15B4A33E-3C41-467A-AAA8-8086C5B4E234}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.Dynatrace.API", "src\Sample.Dynatrace.API\Sample.Dynatrace.API.csproj", "{7C8604DC-2430-4928-BB28-8EFCBD6FD5FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docker", "docker", "{0048CAE4-49EE-4E17-8B11-49ED70E7C24A}"
+	ProjectSection(SolutionItems) = preProject
+		docker\docker-compose.yml = docker\docker-compose.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C8604DC-2430-4928-BB28-8EFCBD6FD5FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C8604DC-2430-4928-BB28-8EFCBD6FD5FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C8604DC-2430-4928-BB28-8EFCBD6FD5FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C8604DC-2430-4928-BB28-8EFCBD6FD5FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7C8604DC-2430-4928-BB28-8EFCBD6FD5FE} = {15B4A33E-3C41-467A-AAA8-8086C5B4E234}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {57C5875D-14E3-4A9E-9B31-6521B2A548CB}
+	EndGlobalSection
+EndGlobal
